@@ -1,0 +1,11 @@
+[
+  {
+    "screenId": "566596d2de1f4e02a71d9a0df393714b",
+    "name": "Status Utility - Clean Guard Probe",
+    "type": "app-screen",
+    "description": "Status Utility - Clean Guard Probe screen",
+    "surfaceIds": [
+      "SURF_STATUS_UTILITY"
+    ]
+  }
+]

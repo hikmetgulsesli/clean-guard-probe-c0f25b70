@@ -1,0 +1,220 @@
+{
+  "generatedAt": "2026-07-05T03:02:42.781Z",
+  "screenCount": 1,
+  "screens": {
+    "566596d2de1f4e02a71d9a0df393714b": {
+      "screenId": "566596d2de1f4e02a71d9a0df393714b",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "block",
+          "classes": [
+            "bg-surface",
+            "border-b",
+            "border-outline-variant",
+            "w-full",
+            "top-0",
+            "z-50"
+          ],
+          "childCount": 3
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-grow",
+            "w-full",
+            "max-w-max-width",
+            "mx-auto",
+            "px-md",
+            "py-lg",
+            "flex",
+            "flex-col",
+            "gap-lg"
+          ],
+          "childCount": 28
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "refresh",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:bg-surface-container",
+            "transition-colors",
+            "p-xs",
+            "rounded-full",
+            "flex",
+            "items-center",
+            "justify-center"
+          ],
+          "icon": "refresh",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:bg-surface-container",
+            "transition-colors",
+            "p-xs",
+            "rounded-full",
+            "flex",
+            "items-center",
+            "justify-center"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:/settings",
+          "expectedRoute": "/settings",
+          "routeInferred": true
+        },
+        {
+          "kind": "button",
+          "label": "Refresh Status",
+          "classes": [
+            "bg-primary",
+            "text-on-primary",
+            "hover:bg-on-primary-fixed-variant",
+            "transition-colors",
+            "px-md",
+            "py-sm",
+            "rounded",
+            "flex",
+            "items-center",
+            "gap-xs"
+          ],
+          "icon": "sync",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [
+        {
+          "kind": "input",
+          "type": "checkbox",
+          "label": "checkbox",
+          "placeholder": "",
+          "name": "",
+          "classes": [
+            "sr-only",
+            "peer"
+          ],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "navLinks": [],
+      "cards": [],
+      "icons": [
+        "refresh",
+        "settings",
+        "sync",
+        "monitor_heart",
+        "radar",
+        "shield",
+        "error",
+        "check_circle",
+        "download",
+        "login"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "tertiary-container": "#cc4204",
+        "on-secondary": "#ffffff",
+        "error-container": "#ffdad6",
+        "on-tertiary-container": "#fff6f4",
+        "on-error": "#ffffff",
+        "on-surface": "#191c1e",
+        "background": "#f7f9fb",
+        "surface": "#f7f9fb",
+        "on-background": "#191c1e",
+        "on-secondary-fixed-variant": "#3a485b",
+        "surface-container-low": "#f2f4f6",
+        "primary-fixed-dim": "#b3c5ff",
+        "on-surface-variant": "#424656",
+        "primary-fixed": "#dae1ff",
+        "on-primary": "#ffffff",
+        "on-primary-fixed": "#001849",
+        "primary": "#0050cb",
+        "secondary-container": "#d5e3fc",
+        "inverse-on-surface": "#eff1f3",
+        "surface-variant": "#e0e3e5",
+        "secondary": "#515f74",
+        "on-primary-container": "#f8f7ff",
+        "surface-container-lowest": "#ffffff",
+        "surface-container": "#eceef0",
+        "surface-tint": "#0054d6",
+        "on-primary-fixed-variant": "#003fa4",
+        "on-error-container": "#93000a",
+        "on-tertiary-fixed": "#390c00",
+        "surface-bright": "#f7f9fb",
+        "error": "#ba1a1a",
+        "on-secondary-container": "#57657a",
+        "tertiary-fixed-dim": "#ffb59d",
+        "inverse-primary": "#b3c5ff",
+        "surface-container-highest": "#e0e3e5",
+        "on-tertiary-fixed-variant": "#832600",
+        "on-secondary-fixed": "#0d1c2e",
+        "primary-container": "#0066ff",
+        "tertiary": "#a33200",
+        "secondary-fixed": "#d5e3fc",
+        "tertiary-fixed": "#ffdbd0",
+        "on-tertiary": "#ffffff",
+        "outline-variant": "#c2c6d8",
+        "outline": "#727687",
+        "secondary-fixed-dim": "#b9c7df",
+        "inverse-surface": "#2d3133",
+        "surface-container-high": "#e6e8ea",
+        "surface-dim": "#d8dadc"
+      },
+      "fonts": [
+        "Hanken Grotesk",
+        "Inter",
+        "JetBrains Mono",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "refresh",
+          "icon": "refresh",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "settings",
+          "icon": "settings",
+          "action": "navigate",
+          "route": "/settings",
+          "expectedBehavior": "navigate:/settings"
+        },
+        {
+          "kind": "button",
+          "label": "Refresh Status",
+          "icon": "sync",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "input",
+          "label": "checkbox",
+          "type": "checkbox",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "tabBar": [],
+      "title": "Status Utility - Clean Guard Probe"
+    }
+  }
+}
